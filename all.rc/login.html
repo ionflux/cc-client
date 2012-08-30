@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function GetVar()
+        {
+         document.all.nick.value = window.external.GetLogin;
+         document.all.pass.value = window.external.GetPass;
+
+         document.all.spass_chat.checked = window.external.SaveChatLogin;
+         
+         document.all.proxy.value = window.external.GetProxyAddr;
+         document.all.port.value = window.external.GetProxyPort;
+         
+         document.all.spass_proxy.checked = window.external.SaveProxyLogin; 
+
+         document.all.proxy_uname.value = window.external.GetProxyUser;
+         document.all.proxy_pass.value = window.external.GetProxyPass;
+         
+         
+         p1.style.display = "none";
+         p2.style.display = "none";
+         p3.style.display = "none";
+         p4.style.display = "none";
+         p5.style.display = "none";
+         p6.style.display = "none";
+
+         if (window.external.GetUseProxy == true) 
+         {
+         
+          document.all.u_proxy.checked = true;
+          p1.style.display = "";
+          p2.style.display = "";
+          p3.style.display = "";
+          
+          if (window.external.GetUseProxyAuth == true) 
+          {
+          
+           document.all.p_auth.checked = true;
+           p4.style.display = "";
+           p5.style.display = "";
+           p6.style.display = "";
+           
+          } 
+         }
+         
+         
+         document.all.pass.focus();
+        }
+		 
+	function SetVar()
+        {
+         window.external.DoLogin = document.all.nick.value + ',' + document.all.pass.value + ',' + document.all.spass_chat.checked + ',' + document.all.u_proxy.checked + ',' + document.all.proxy.value + ',' + document.all.port.value + ',' + document.all.spass_proxy.checked + ',' + document.all.proxy_uname.value + ',' + document.all.proxy_pass.value + ',' + + document.all.spass_proxy.checked;
+        }
+
+        function Config()
+        {
+         window.external.DoConfig = '';
+        }
+        
+       
+function toggle() {
+  if (document.all.u_proxy.checked == true) {
+  
+     p1.style.display = "";
+     p2.style.display = "";
+     p3.style.display = "";
+     
+  if (document.all.p_auth.checked == true) {
+  
+     p4.style.display = "";
+     p5.style.display = "";
+     p6.style.display = "";
+     
+     } else {
+
+     p4.style.display = "none";
+     p5.style.display = "none";
+     p6.style.display = "none";
+     
+     }
+     
+  } else {
+  
+     p1.style.display = "none";
+     p2.style.display = "none";
+     p3.style.display = "none";
+     p4.style.display = "none";
+     p5.style.display = "none";
+     p6.style.display = "none";
+  
+  }
+ 
+}        
+        
+//-->
+</SCRIPT>
+<META http-equiv=Content-Type content="text/html; charset=windows-1251">
+</HEAD>
+<BODY text=#b8826d vLink=#8a543f aLink=#ffffff link=#ffff00 bgColor=#000000 onLoad="GetVar()">
+
+<CENTER><IMG src="castle"><BR><BR><IMG src="twoline"><BR>
+<TABLE cellSpacing=0 cellPadding=9 width=292 bgColor=#3f261d border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <CENTER><FONT size=2 color=red><B><div id="info"></div></B></FONT></CENTER><BR>
+      <CENTER><FONT size=2><B><I>ВХОД</I></B> </CENTER>
+      <P align=justify>Привет ! Добро пожаловать в "Замок". Если у вы не зарегистрированны то
+      <A target="_blank" href="http://castle.istu.edu/reg.html">зарегистрируйтесь</A>. </P>
+      
+      <TABLE>
+        <TBODY>
+        <!-- form action="login" method="post" -->
+        <TR>
+          <TD><FONT size=2><b>Пользователь:</b></FONT></TD>
+          <TD></TD>
+        </TR>
+        <TR>
+          <TD><FONT size=2>Ник:</FONT></TD>
+          <TD><INPUT maxLength=20 name=nick></TD></TR>
+        <TR>
+          <TD><FONT size=2>Пароль:</FONT></TD>
+          <TD><INPUT type=password name=pass></TD>
+        </TR>
+        
+        <TR>
+          <TD><FONT size=2>Сохранить пароль:</FONT></TD>
+          <TD><input type=checkbox name="spass_chat"></TD>
+        </TR>        
+        
+        <TR>
+          <TD><FONT size=2><b>Прокси сервер:</b></FONT></TD>
+          <TD><input name="u_proxy" type=checkbox OnClick="toggle()"></TD>
+        </TR>
+        <TR id=p1>
+          <TD><FONT size=2>Адрес:</FONT></TD>
+          <TD><INPUT maxLength=120 name="proxy"></TD>
+        </TR>
+        <TR id=p2>
+          <TD><FONT size=2>Порт:</FONT></TD>
+          <TD><INPUT maxLength=5 name="port"></TD>
+        </TR>        
+        
+        <TR id=p3>
+          <TD><FONT size=2><b>Авторизация:</b></FONT></TD>
+          <TD><input name="p_auth" type=checkbox OnClick="toggle()"></TD>
+        </TR>
+        <TR id=p4>
+          <TD><FONT size=2>Имя:</FONT></TD>
+          <TD><INPUT maxLength=120 name="proxy_uname"></TD>
+        </TR>
+        <TR id=p5>
+          <TD><FONT size=2>Пароль:</FONT></TD>
+          <TD><INPUT type=password name="proxy_pass"></TD>
+        </TR>
+        <TR id=p6>
+          <TD><FONT size=2>Сохранить пароль:</FONT></TD>
+          <TD><input type=checkbox name="spass_proxy"></TD>
+        </TR>
+        
+        
+          </TBODY></TABLE>
+      <CENTER><BR>
+      <INPUT type=image src="k_enter" alt="Войти в замок" onClick="SetVar()" value=Sent border=0>
+      </CENTER></FONT></TD></TR></TBODY><!-- /form --></TABLE><CENTER>
+      <IMG src="twoline"><BR><BR><a href="about"><FONT size=2>О Клиенте Замка "ИФ"</FONT></a></CENTER></BODY></HTML>

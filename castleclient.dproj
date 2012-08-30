@@ -1,0 +1,179 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{590089AC-639C-4477-B355-8126D87C1E66}</ProjectGuid>
+			<MainSource>castleclient.dpr</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<TargetedPlatforms>1</TargetedPlatforms>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<ProjectVersion>13.4</ProjectVersion>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+			<Base_Win64>true</Base_Win64>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+			<Base_Win32>true</Base_Win32>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<VerInfo_PreRelease>true</VerInfo_PreRelease>
+			<VerInfo_AutoGenVersion>true</VerInfo_AutoGenVersion>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<VerInfo_Build>28</VerInfo_Build>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<VerInfo_MinorVer>2</VerInfo_MinorVer>
+			<DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;$(DCC_Namespace)</DCC_Namespace>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_MapFile>3</DCC_MapFile>
+			<DCC_K>false</DCC_K>
+			<DCC_F>false</DCC_F>
+			<DCC_S>false</DCC_S>
+			<DCC_N>true</DCC_N>
+			<DCC_E>false</DCC_E>
+			<VerInfo_Keys>CompanyName=phoenix lab.;FileDescription=Клиент Замка &quot;ИФ&quot;;FileVersion=1.2.0.28;InternalName=castleclient.exe;LegalCopyright=phoenix lab.;LegalTrademarks=;OriginalFilename=castleclient.exe;ProductName=Клиент Замка &quot;ИФ&quot;;ProductVersion=1.0;Comments=</VerInfo_Keys>
+			<DCC_UsePackage>vcl;rtl;vclx;indy;inet;xmlrtl;vclie;inetdbbde;inetdbxpress;dbrtl;dsnap;dsnapcon;vcldb;soaprtl;VclSmp;dbexpress;dbxcds;inetdb;bdertl;vcldbx;webdsnap;websnap;adortl;ibxpress;teeui;teedb;tee;dss;visualclx;visualdbclx;vclactnband;vclshlctrls;dclOffice2k;$(DCC_UsePackage)</DCC_UsePackage>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+			<DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win64)'!=''">
+			<Icon_MainIcon>castleclient_Icon.ico</Icon_MainIcon>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win32)'!=''">
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<Icon_MainIcon>castleclient_Icon.ico</Icon_MainIcon>
+			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+			<Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="$(MainSource)">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="castle_archive.pas">
+				<Form>frmArchive</Form>
+			</DCCReference>
+			<DCCReference Include="castle_help.pas">
+				<Form>frmHelp</Form>
+			</DCCReference>
+			<DCCReference Include="castle_interface.pas"/>
+			<DCCReference Include="castle_messages.pas">
+				<Form>frmMessages</Form>
+			</DCCReference>
+			<DCCReference Include="castle_setup.pas">
+				<Form>frmSetup</Form>
+			</DCCReference>
+			<DCCReference Include="castle_userinfo.pas">
+				<Form>frmUserInfo</Form>
+			</DCCReference>
+			<DCCReference Include="castle_utils.pas"/>
+			<DCCReference Include="castleclient_TLB.pas"/>
+			<DCCReference Include="Crypt32.pas"/>
+			<DCCReference Include="main.pas">
+				<Form>frmCastle</Form>
+			</DCCReference>
+			<DCCReference Include="Threads.pas"/>
+			<DCCReference Include="NetLayerU.pas"/>
+			<DCCReference Include="castle_ot_chat.pas">
+				<Form>frmChatWith</Form>
+			</DCCReference>
+			<DCCReference Include="castle_baloon.pas">
+				<Form>frmBaloon</Form>
+			</DCCReference>
+			<DCCReference Include="ToDO.pas"/>
+			<DCCReference Include="castle_setup_main.pas">
+				<Form>frmCastle_setup_main</Form>
+			</DCCReference>
+			<DCCReference Include="castle_setup_sounds.pas">
+				<Form>frmCastle_setup_sounds</Form>
+			</DCCReference>
+			<DCCReference Include="castle_setup_css.pas">
+				<Form>frmCastle_setup_css</Form>
+			</DCCReference>
+			<DCCReference Include="CSS_Colors.pas"/>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">castleclient.dpr</Source>
+					</Source>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">2</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">28</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">True</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">phoenix lab.</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">Клиент Замка &quot;ИФ&quot;</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">1.2.0.28</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">castleclient.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">phoenix lab.</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename">castleclient.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">Клиент Замка &quot;ИФ&quot;</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">1.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win64">False</Platform>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+	</Project>

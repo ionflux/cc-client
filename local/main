@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+<html>
+<head><title>Замок IF</title></head>
+<frameset cols=*,200 border=0 frameborder=0 framespacing=0>
+    <frameset rows=52,22,*,49>
+		<frame src="/top.html" marginwidth=0 marginheight=0 scrolling=no>
+		<frame src="/cgi-bin/castle_if/main/time.pl?first=first&numer=14648&id=82NBPnpk91kOs" marginwidth=0 marginheight=0 scrolling=no name=time>
+		<frame src="/cgi-bin/castle_if/main/window.pl?numer=14648&id=82NBPnpk91kOs" name=message>
+		<frame src="/cgi-bin/castle_if/main/ctrl.pl?numer=14648&id=82NBPnpk91kOs&first=yes" marginwidth=0 marginheight=0 scrolling=no name=ctrl>
+	    </frameset>
+     <frameset rows=60,*,0>
+		<frame src="/cgi-bin/castle_if/main/menu.pl?numer=14648&id=82NBPnpk91kOs" marginwidth=0 marginheight=0 scrolling=no>
+		<frame src="/cgi-bin/castle_if/tools/readsoob.pl?id=82NBPnpk91kOs&numer=14648" marginwidth=7 marginheight=3 scrolling=auto name="right">
+		<frame src="/swap.html" marginwidth=0 marginheight=0 scrolling=no name="swap">
+     </frameset>
+</frameset>
+</html>

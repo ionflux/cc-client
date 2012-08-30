@@ -1,0 +1,9 @@
+del *.~*
+del *.dcu
+del *.ddp
+del *.map
+del *.drc
+del *.dcp
+del *.exe
+del *.bpl
+del *.dll

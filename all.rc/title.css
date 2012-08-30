@@ -1,0 +1,50 @@
+a:link {font-family: Arial; color: #917250; font-size: 9pt; font-weight: bold; text-decoration: none;}
+a:visited {font-family: Arial; color: #86694A; font-size: 9pt; font-weight: bold; text-decoration: none;}
+a:hover {font-family: Arial; color: #917250; font-size: 9pt; font-weight: bold; text-decoration: underline;}
+a:active {font-family: Arial; color: #917250; font-size: 9pt; font-weight: bold; text-decoration: underline;}
+
+strong a:link {font-family: Arial; color: #917250; font-size: 8pt; font-weight: bold; text-decoration: none;}
+strong a:visited {font-family: Arial; color: #86694A; font-size: 8pt; font-weight: bold; text-decoration: none;}
+strong a:hover {font-family: Arial; color: #917250; font-size: 8pt; font-weight: bold; text-decoration: underline;}
+strong a:active {font-family: Arial; color: #917250; font-size: 8pt; font-weight: bold; text-decoration: underline;}
+
+
+.textrightmenu {font-family: Arial; color: #A09986; font-size: 8pt; line-height: 0.9; text-align: justify; font-weight: normal;}
+strong {font-family: Arial; color: #A09986; font-size: 8pt; line-height: 0.9; text-align: justify; font-weight: normal;}
+.industry {font-family: Arial; color: #917250; font-size: 8pt; line-height: 0.9; font-weight: bold}
+.text {font-family: Arial; color: #A09986; font-size: 9pt; text-align: justify;}
+.textright {font-family: Arial; color: #A09986; font-size: 9pt; line-height: 1; text-align: right;}
+.datenews {font-family: Arial; color: #917250; font-size: 9pt; line-height: 1; text-align: right; font-weight: bold}
+.nickzagl {font-family: Arial; color: #917250; font-size: 9pt; line-height: 1; text-align: left; font-weight: bold}
+.date {font-family: Arial; color: #917250; font-size: 8pt; line-height: 0,9; text-align: right; font-weight: bold}
+.datenewstype {font-family: Arial; color: #A09986; font-size: 9pt; line-height: 1; text-align: right;}
+.galleryfoto {font-family: Arial; color: #A09986; font-size: 9pt; line-height: 1; text-align: center;}
+.zagl {font-family: Arial; color: #917250; font-size: 11pt; line-height: 0.9; text-align: justify; font-weight: bold;}
+.menucolor {font-family: Arial; color: #917250; font-size: 8pt; font-weight: bold;}
+em {font-family: Arial; color: #917250; font-size: 9pt; font-weight: bold; font-style: normal;}
+
+
+
+
+.form {font-family: Arial; font-size: 10pt; background-color: #5B5957; color: #A09986; font-weight:bold; border: 0; solid: #5B5957; padding-top: 1}
+.formarea {font-family: Arial; font-size: 10pt; background-color: #5B5957; color: #A09986; border: 0; solid: #5B5957; padding-top: 1}
+.select {font-family: Arial; font-size: 9pt; background-color: #5B5957; color: #A09986; border: 0; font-weight:bold; padding-top: 1}
+.forumhead {font-family: Arial; font-size: 8pt; color: #917250; font-weight=bold; border:0}
+.forumtime {font-family: Arial; font-size: 8pt; color: #A09986; text-align: right;}
+.textforum {font-family: Arial; color: #A09986; font-size: 9pt; text-align: justify;}
+.bgforum {font-family: Arial; background-color: #282726; color: #A09986; font-size: 8pt; vertical-align: middle;}
+.bgforum1 {font-family: Arial; background-color: #141313; color: #A09986; font-size: 8pt; vertical-align: middle;}
+
+
+
+
+body
+{
+scrollbar-face-color: 917250;
+scrollbar-highlight-color: #000000;
+scrollbar-shadow-color: #000000;
+scrollbar-3dlight-color: #5B5957;
+scrollbar-arrow-color: #000000;
+scrollbar-track-color: #A09986;
+scrollbar-darkshadow-color: 917250;
+}

@@ -1,0 +1,32 @@
+var
+  phKEY: HKEY;
+  lpValueName: PChar;
+  lpcbValueName: DWORD;
+  lpReserved: Pointer;
+  ulOptions: DWORD;
+  lpType: PDWORD;
+  lpData: PBYTE;
+  lpcbData: PDWORD;
+  
+begin
+  ulOptions:=0;
+  lpReserved:=NIL;
+  if RegOpenKeyEx(HKEY_CURRENT_USER,
+                  'SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings',
+                  ulOptions,
+                  KEY_QUERY_VALUE,
+                  phKEY)=ERROR_SUCCESS Then
+      begin
+        lpValueName:='ProxyEnable';
+        if RegQueryValueEx(phKEY,
+                           lpValueName,
+                           lpReserved,
+                           lpType,
+                           lpData,
+                           lpcbData)=ERROR_SUCCESS then
+          begin
+            <Действия>
+          end;
+        RegCloseKey(phKEY);
+      end;
+end;

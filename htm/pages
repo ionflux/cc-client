@@ -1,0 +1,10 @@
+send:      http://castle.istu.edu/cgi-bin/castle_if/main/ctrl.pl?numer=14648&id=19.pWmauKVbq2&first=yes
+users:     http://castle.istu.edu/cgi-bin/castle_if/main/users.pl?id=19.pWmauKVbq2&numer=14648
+private:   http://castle.istu.edu/cgi-bin/castle_if/main/private.pl?action=show&id=19.pWmauKVbq2&numer=14648
+user_info: http://castle.istu.edu/cgi-bin/castle_if/tools/info.pl?action=show&numer=14648
+message:   http://castle.istu.edu/cgi-bin/castle_if/tools/soobch.pl?id=19.pWmauKVbq2&numer=14648&action=show
+ignor:     http://castle.istu.edu/cgi-bin/castle_if/main/ignore.pl?id=19.pWmauKVbq2&numer=14648&action=show
+setup:     http://castle.istu.edu/cgi-bin/castle_if/registration/nastr.pl?id=19.pWmauKVbq2&numer=14648
+archive:   http://castle.istu.edu/cgi-bin/castle_if/tools/show_arch.pl
+lockchat:  http://castle.istu.edu/cgi-bin/castle_if/tools/lock.pl?id=19.pWmauKVbq2&numer=14648&action=lock
+exit:      http://castle.istu.edu/cgi-bin/castle_if/main/exit.pl?id=19.pWmauKVbq2&numer=14648

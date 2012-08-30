@@ -1,0 +1,25 @@
+k_enter		bitmap	"k_enter.bmp"
+k_obn		bitmap	"k_obn.bmp"
+k_status 	bitmap	"k_status.bmp"
+k_private 	bitmap	"k_private.bmp"
+
+// site
+castle 		23	"castle.gif"
+login 		23 	"login.html"
+k_enter 	23 	"k_enter.gif"
+k_enter1	23	"k_enter1.gif"
+twoline 	23 	"twoline.gif"
+bg_right 	23	"bg_right.gif"
+about		23	"about.html"
+loading		23	"loading.html"
+castle_client_02 23	"castle_client_02.png"
+exit		23	"exit.html"
+archive		23	"archive.html"
+private		23	"private.html"
+k_configure 	23	"k_configure.gif"
+pchat		23	"pchat.html"
+rekl		23	"rekl.html"
+
+// smiles
+smiles		23 	"smiles.html"
+9993		icon	"9993.ico"

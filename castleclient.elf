@@ -1,0 +1,840 @@
+Application...
+  Start Date      : 01/06/2004 19:32:16
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.1.0.20
+
+Exception...
+  Date   : 01/06/2004 19:32:35
+  Address: 00500026
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 00500026 in module 'castleclient.exe'. Read of address 00000000.
+
+Active Controls...
+  Form Class   : ** *** **** *****
+  Form Text    : Замок "ИФ"
+  Control Class: 
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 274 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,43 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+--------------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class         |Procedure/Method       |Line|
+--------------------------------------------------------------------------------------------
+|00500026|castleclient.exe|castle_interface.pas|TChatThread   |HandleException        |1072|
+|00509288|castleclient.exe|Threads.pas         |TAdvThread    |Execute                |104 |
+|77EBD79A|kernel32.dll    |                    |              |CompareStringA         |    |
+|77E1D1C0|user32.dll      |                    |              |CharUpperBuffW         |    |
+|77E1D26C|user32.dll      |                    |              |CharUpperBuffA         |    |
+|77F91A91|ntdll.dll       |                    |              |KiUserApcDispatcher    |    |
+|77FB96CC|ntdll.dll       |                    |              |RtlExtendedMagicDivide |    |
+|77FB3630|ntdll.dll       |                    |              |_allmul                |    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|00502A48|castleclient.exe|castle_interface.pas|TChatLog      |Destroy                |1561|
+|004FFC7A|castleclient.exe|castle_interface.pas|TChatThread   |DoExecute              |1053|
+|0050925F|castleclient.exe|Threads.pas         |TAdvThread    |Execute                |101 |
+|005010AB|castleclient.exe|castle_interface.pas|TChatThread   |Create                 |1230|
+|00500FA0|castleclient.exe|castle_interface.pas|TChatThread   |Create                 |1222|
+|004FA15B|castleclient.exe|main.pas            |TfrmCastle    |DoLogin                |502 |
+|004F9F24|castleclient.exe|main.pas            |TfrmCastle    |DoLogin                |466 |
+|004F97DA|castleclient.exe|main.pas            |TfrmCastle    |WndProc                |413 |
+|00492AB4|castleclient.exe|EmbeddedWB.pas      |TEmbeddedWB   |FormWndProc            |1033|
+|00492AB4|castleclient.exe|EmbeddedWB.pas      |TEmbeddedWB   |FormWndProc            |1033|
+|00492AB4|castleclient.exe|EmbeddedWB.pas      |TEmbeddedWB   |FormWndProc            |1033|
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77E24F45|user32.dll      |                    |              |CallWindowProcW        |    |
+|77E16B3F|user32.dll      |                    |              |CallWindowProcA        |    |
+|77E16B2B|user32.dll      |                    |              |CallWindowProcA        |    |
+|004F3075|castleclient.exe|CoolTrayIcon.pas    |TCoolTrayIcon |HookFormProc           |974 |
+|77E1689F|user32.dll      |                    |              |SendMessageA           |    |
+|77E16860|user32.dll      |                    |              |SendMessageA           |    |
+|00503CD7|castleclient.exe|castle_interface.pas|TTCastleClient|Set_DoLogin            |1866|
+|779D7B9B|oleaut32.dll    |                    |              |DispCallFunc           |    |
+|779D7A40|oleaut32.dll    |                    |              |DispCallFunc           |    |
+|78003C7B|MSVCRT.DLL      |                    |              |_control87             |    |
+|78003C7B|MSVCRT.DLL      |                    |              |_control87             |    |
+|77FC9539|ntdll.dll       |                    |              |RtlAllocateHeap        |    |
+|77F488C9|GDI32.dll       |                    |              |StretchDIBits          |    |
+|77FC9618|ntdll.dll       |                    |              |RtlFreeHeap            |    |
+|77E8928E|kernel32.dll    |                    |              |LocalFree              |    |
+|77FB94F0|ntdll.dll       |                    |              |RtlCompareMemoryUlong  |    |
+|77F43C6F|GDI32.dll       |                    |              |CreateRectRgn          |    |
+|77F5315B|GDI32.dll       |                    |              |GetLayout              |    |
+|77F451EC|GDI32.dll       |                    |              |ExtSelectClipRgn       |    |
+|77F42F3D|GDI32.dll       |                    |              |DeleteObject           |    |
+|77FB94F0|ntdll.dll       |                    |              |RtlCompareMemoryUlong  |    |
+|77FB9590|ntdll.dll       |                    |              |RtlFillMemoryUlong     |    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77FC9539|ntdll.dll       |                    |              |RtlAllocateHeap        |    |
+|77FC9618|ntdll.dll       |                    |              |RtlFreeHeap            |    |
+|77FB9590|ntdll.dll       |                    |              |RtlFillMemoryUlong     |    |
+|77FB9590|ntdll.dll       |                    |              |RtlFillMemoryUlong     |    |
+|77FB9590|ntdll.dll       |                    |              |RtlFillMemoryUlong     |    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77FC9539|ntdll.dll       |                    |              |RtlAllocateHeap        |    |
+|77F87F20|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77FC9618|ntdll.dll       |                    |              |RtlFreeHeap            |    |
+|78001156|MSVCRT.DLL      |                    |              |free                   |    |
+|7800110C|MSVCRT.DLL      |                    |              |free                   |    |
+|77FB94A0|ntdll.dll       |                    |              |RtlCompareMemory       |    |
+|77E15B04|user32.dll      |                    |              |GetWindowLongA         |    |
+|77E1A339|user32.dll      |                    |              |CallNextHookEx         |    |
+|77E2CA71|user32.dll      |                    |              |GetMessageTime         |    |
+|77E2CA6F|user32.dll      |                    |              |GetMessageTime         |    |
+|004931A7|castleclient.exe|EmbeddedWB.pas      |TEmbeddedWB   |WBWndProc              |1432|
+|004932E9|castleclient.exe|EmbeddedWB.pas      |TEmbeddedWB   |WBWndProc              |1453|
+|77EC7F0A|kernel32.dll    |                    |              |MultiByteToWideChar    |    |
+|77E1689F|user32.dll      |                    |              |SendMessageA           |    |
+|77E15B4C|user32.dll      |                    |              |DispatchMessageA       |    |
+|77E15B46|user32.dll      |                    |              |DispatchMessageA       |    |
+|77DD9958|advapi32.dll    |                    |              |RegOpenKeyExA          |    |
+|77DD9958|advapi32.dll    |                    |              |RegOpenKeyExA          |    |
+|0050AFF0|castleclient.exe|castleclient.dpr    |              |                       |34  |
+|77DD9958|advapi32.dll    |                    |              |RegOpenKeyExA          |    |
+--------------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/06/2004 20:55:59
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.1.0.20
+
+Exception...
+  Date   : 01/06/2004 20:56:08
+  Address: 77F8786C
+  Module : ntdll.dll
+  Type   : EAccessViolation
+  Message: Access violation at address 77F8786C in module 'ntdll.dll'. Write of address 00404DDD.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castleclient.dpr
+  Control Class: TComboBox
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 256 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,43 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+------------------------------------------------------------------------------------
+|Address |Module          |Unit            |Class|Procedure/Method            |Line|
+------------------------------------------------------------------------------------
+|77F8786C|ntdll.dll       |                |     |RtlUnicodeToMultiByteN      |    |
+|77E1751C|user32.dll      |                |     |WCSToMBEx                   |    |
+|77F87F20|ntdll.dll       |                |     |RtlLeaveCriticalSection     |    |
+|77E16B3F|user32.dll      |                |     |CallWindowProcA             |    |
+|77E16B2B|user32.dll      |                |     |CallWindowProcA             |    |
+|77FC9618|ntdll.dll       |                |     |RtlFreeHeap                 |    |
+|77E1689F|user32.dll      |                |     |SendMessageA                |    |
+|77E16860|user32.dll      |                |     |SendMessageA                |    |
+|77E16B3F|user32.dll      |                |     |CallWindowProcA             |    |
+|77E16B2B|user32.dll      |                |     |CallWindowProcA             |    |
+|77F873C8|ntdll.dll       |                |     |RtlMultiByteToUnicodeN      |    |
+|77F87374|ntdll.dll       |                |     |RtlAnsiStringToUnicodeString|    |
+|77F873C8|ntdll.dll       |                |     |RtlMultiByteToUnicodeN      |    |
+|77F87374|ntdll.dll       |                |     |RtlAnsiStringToUnicodeString|    |
+|77F87F20|ntdll.dll       |                |     |RtlLeaveCriticalSection     |    |
+|77F87F20|ntdll.dll       |                |     |RtlLeaveCriticalSection     |    |
+|77E16B3F|user32.dll      |                |     |CallWindowProcA             |    |
+|77E16B2B|user32.dll      |                |     |CallWindowProcA             |    |
+|77E1DCD2|user32.dll      |                |     |PostMessageW                |    |
+|77E1733C|user32.dll      |                |     |SendMessageW                |    |
+|77E172FD|user32.dll      |                |     |SendMessageW                |    |
+|77E156CF|user32.dll      |                |     |PeekMessageA                |    |
+|77E15B4C|user32.dll      |                |     |DispatchMessageA            |    |
+|77E15B46|user32.dll      |                |     |DispatchMessageA            |    |
+|77DD9958|advapi32.dll    |                |     |RegOpenKeyExA               |    |
+|77DD9958|advapi32.dll    |                |     |RegOpenKeyExA               |    |
+|0050B0D0|castleclient.exe|castleclient.dpr|     |                            |34  |
+|77DD9958|advapi32.dll    |                |     |RegOpenKeyExA               |    |
+------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 15:52:28
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 15:52:39
+  Address: 0050B386
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 0050B386 in module 'castleclient.exe'. Read of address 0000000B.
+
+Active Controls...
+  Form Class   : TAppBuilder
+  Form Text    : Delphi 7 - castleclient [Running]
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 323 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+--------------------------------------------------------------------------------------
+|Address |Module          |Unit              |Class           |Procedure/Method|Line |
+--------------------------------------------------------------------------------------
+|0050B386|castleclient.exe|castle_archive.pas|TfrmArchive     |vsLogsChange    |137  |
+|004B38B2|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|DoChange        |17120|
+|004B2321|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|Change          |16306|
+|004B22BC|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|Change          |16298|
+|004BD4B0|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|ClearSelection  |22439|
+|004BD3B0|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|ClearSelection  |22409|
+|004B8628|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|HandleMouseDown |19620|
+|004BF070|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|GetHitTestInfoAt|23588|
+|004B8144|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|HandleMouseDown |19500|
+|004B08DE|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WMLButtonDown   |15419|
+|77E254EC|user32.dll      |                  |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                  |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas  |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas  |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                  |                |IsWindow        |     |
+|77E1A339|user32.dll      |                  |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                  |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                  |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                  |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|0050B8C0|castleclient.exe|castleclient.dpr  |                |                |34   |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+--------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 15:57:04
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 15:57:14
+  Address: 004F45FA
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 004F45FA in module 'castleclient.exe'. Read of address 0000000B.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 322 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+--------------------------------------------------------------------------------------
+|Address |Module          |Unit              |Class           |Procedure/Method|Line |
+--------------------------------------------------------------------------------------
+|004F45FA|castleclient.exe|castle_archive.pas|TfrmArchive     |vsLogsChange    |135  |
+|004B38B2|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|DoChange        |17120|
+|004B2321|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|Change          |16306|
+|004B22BC|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|Change          |16298|
+|004BD4B0|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|ClearSelection  |22439|
+|004BD3B0|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|ClearSelection  |22409|
+|004B8628|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|HandleMouseDown |19620|
+|004BF070|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|GetHitTestInfoAt|23588|
+|004B8144|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|HandleMouseDown |19500|
+|004B08DE|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WMLButtonDown   |15419|
+|77E254EC|user32.dll      |                  |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                  |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas  |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas  |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                  |                |IsWindow        |     |
+|77E1A339|user32.dll      |                  |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                  |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                  |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                  |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|0050B97C|castleclient.exe|castleclient.dpr  |                |                |34   |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+--------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:01:41
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:02:17
+  Address: 004F470A
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 004F470A in module 'castleclient.exe'. Read of address 0000000B.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 284 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+--------------------------------------------------------------------------------------
+|Address |Module          |Unit              |Class           |Procedure/Method|Line |
+--------------------------------------------------------------------------------------
+|004F470A|castleclient.exe|castle_archive.pas|TfrmArchive     |vsLogsChange    |161  |
+|004B38B2|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|DoChange        |17120|
+|004B2321|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|Change          |16306|
+|004B22BC|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|Change          |16298|
+|004BD4B0|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|ClearSelection  |22439|
+|004BD3B0|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|ClearSelection  |22409|
+|004B8628|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|HandleMouseDown |19620|
+|004BF070|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|GetHitTestInfoAt|23588|
+|004B8144|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|HandleMouseDown |19500|
+|004B08DE|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WMLButtonDown   |15419|
+|77E254EC|user32.dll      |                  |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                  |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas  |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas  |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                  |                |IsWindow        |     |
+|77E1A339|user32.dll      |                  |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                  |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                  |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                  |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|0050B9C8|castleclient.exe|castleclient.dpr  |                |                |34   |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+--------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:03:56
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:04:12
+  Address: 00404BDC
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 00404BDC in module 'castleclient.exe'. Read of address 00000048.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 283 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+----------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class           |Procedure/Method|Line |
+----------------------------------------------------------------------------------------
+|0050AA6C|castleclient.exe|castle_interface.pas|                |RawToHTML       |2583 |
+|0050A8B8|castleclient.exe|castle_interface.pas|                |RawToHTML       |2559 |
+|004F44D2|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |130  |
+|004F4458|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |125  |
+|004F46EE|castleclient.exe|castle_archive.pas  |TfrmArchive     |vsLogsChange    |157  |
+|004B38B2|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|DoChange        |17120|
+|004B2321|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|Change          |16306|
+|004B22BC|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|Change          |16298|
+|004B17B7|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|AddToSelection  |15957|
+|004B175C|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|AddToSelection  |15952|
+|004B88B0|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|HandleMouseDown |19677|
+|004B8144|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|HandleMouseDown |19500|
+|004B08DE|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WMLButtonDown   |15419|
+|77E254EC|user32.dll      |                    |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                    |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas    |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas    |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                    |                |IsWindow        |     |
+|77E1A339|user32.dll      |                    |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                    |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                    |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                    |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|0050B980|castleclient.exe|castleclient.dpr    |                |                |34   |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+----------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:19:12
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:19:31
+  Address: 00404BDC
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 00404BDC in module 'castleclient.exe'. Read of address 000000C0.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 276 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+----------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class           |Procedure/Method|Line |
+----------------------------------------------------------------------------------------
+|0050A9CC|castleclient.exe|castle_interface.pas|                |RawToHTML       |2583 |
+|0050A818|castleclient.exe|castle_interface.pas|                |RawToHTML       |2559 |
+|004F44DD|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |131  |
+|004F446C|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |126  |
+|004F464F|castleclient.exe|castle_archive.pas  |TfrmArchive     |vsLogsDblClick  |166  |
+|004B0856|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WMLButtonDblClk |15399|
+|77E24F45|user32.dll      |                    |                |CallWindowProcW |     |
+|77E254EC|user32.dll      |                    |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                    |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas    |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas    |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                    |                |IsWindow        |     |
+|77E1A339|user32.dll      |                    |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                    |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                    |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                    |                |DispatchMessageA|     |
+|0050B8E0|castleclient.exe|castleclient.dpr    |                |                |34   |
+----------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:19:12
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:20:17
+  Address: 00404BDC
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 00404BDC in module 'castleclient.exe'. Read of address 00000010.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 275 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+----------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class           |Procedure/Method|Line |
+----------------------------------------------------------------------------------------
+|0050A9CC|castleclient.exe|castle_interface.pas|                |RawToHTML       |2583 |
+|0050A818|castleclient.exe|castle_interface.pas|                |RawToHTML       |2559 |
+|004F44DD|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |131  |
+|004F446C|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |126  |
+|004F464F|castleclient.exe|castle_archive.pas  |TfrmArchive     |vsLogsDblClick  |166  |
+|004B0856|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WMLButtonDblClk |15399|
+|77E24F45|user32.dll      |                    |                |CallWindowProcW |     |
+|77E254EC|user32.dll      |                    |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                    |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas    |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas    |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                    |                |IsWindow        |     |
+|77E1A339|user32.dll      |                    |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                    |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                    |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                    |                |DispatchMessageA|     |
+|0050B8E0|castleclient.exe|castleclient.dpr    |                |                |34   |
+----------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:22:30
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:22:41
+  Address: 00404BDC
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 00404BDC in module 'castleclient.exe'. Read of address 00000078.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 267 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+----------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class           |Procedure/Method|Line |
+----------------------------------------------------------------------------------------
+|0050AA94|castleclient.exe|castle_interface.pas|                |RawToHTML       |2583 |
+|0050A8E0|castleclient.exe|castle_interface.pas|                |RawToHTML       |2559 |
+|004F44E6|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |132  |
+|004F446C|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |126  |
+|004F4717|castleclient.exe|castle_archive.pas  |TfrmArchive     |vsLogsDblClick  |166  |
+|004B0856|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WMLButtonDblClk |15399|
+|77E24F45|user32.dll      |                    |                |CallWindowProcW |     |
+|77E254EC|user32.dll      |                    |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                    |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas    |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas    |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                    |                |IsWindow        |     |
+|77E1A339|user32.dll      |                    |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                    |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                    |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                    |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|0050B9A8|castleclient.exe|castleclient.dpr    |                |                |34   |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+----------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:22:30
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:22:56
+  Address: 00404BDC
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 00404BDC in module 'castleclient.exe'. Read of address 000000AC.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 268 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+----------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class           |Procedure/Method|Line |
+----------------------------------------------------------------------------------------
+|0050AA94|castleclient.exe|castle_interface.pas|                |RawToHTML       |2583 |
+|0050A8E0|castleclient.exe|castle_interface.pas|                |RawToHTML       |2559 |
+|004F44E6|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |132  |
+|004F446C|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |126  |
+|004F4717|castleclient.exe|castle_archive.pas  |TfrmArchive     |vsLogsDblClick  |166  |
+|004B0856|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WMLButtonDblClk |15399|
+|77E24F45|user32.dll      |                    |                |CallWindowProcW |     |
+|77E254EC|user32.dll      |                    |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                    |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas    |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas    |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                    |                |IsWindow        |     |
+|77E1A339|user32.dll      |                    |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                    |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                    |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                    |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|0050B9A8|castleclient.exe|castleclient.dpr    |                |                |34   |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+----------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:22:30
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:23:17
+  Address: 004879F6
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 004879F6 in module 'castleclient.exe'. Read of address 00000000.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 267 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+--------------------------------------------------------------------------------------
+|Address |Module          |Unit              |Class           |Procedure/Method|Line |
+--------------------------------------------------------------------------------------
+|004F4564|castleclient.exe|castle_archive.pas|TfrmArchive     |lvLogClick      |132  |
+|004F446C|castleclient.exe|castle_archive.pas|TfrmArchive     |lvLogClick      |126  |
+|004F4717|castleclient.exe|castle_archive.pas|TfrmArchive     |vsLogsDblClick  |166  |
+|004B0856|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WMLButtonDblClk |15399|
+|77E24F45|user32.dll      |                  |                |CallWindowProcW |     |
+|77E254EC|user32.dll      |                  |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                  |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas  |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas  |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                  |                |IsWindow        |     |
+|77E1A339|user32.dll      |                  |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas  |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                  |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                  |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                  |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+|0050B9A8|castleclient.exe|castleclient.dpr  |                |                |34   |
+|77DD9958|advapi32.dll    |                  |                |RegOpenKeyExA   |     |
+--------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 01/07/2004 16:33:14
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.20
+
+Exception...
+  Date   : 01/07/2004 16:33:28
+  Address: 00404BDC
+  Module : castleclient.exe
+  Type   : EAccessViolation
+  Message: Access violation at address 00404BDC in module 'castleclient.exe'. Read of address 00000020.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : castle_archive.pas
+  Control Class: TVirtualStringTree
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 263 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 21,29 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+----------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class           |Procedure/Method|Line |
+----------------------------------------------------------------------------------------
+|00507757|castleclient.exe|castle_interface.pas|                |RawToHTML       |2583 |
+|00507590|castleclient.exe|castle_interface.pas|                |RawToHTML       |2558 |
+|0050B33A|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |131  |
+|0050B2C0|castleclient.exe|castle_archive.pas  |TfrmArchive     |lvLogClick      |126  |
+|0050B56B|castleclient.exe|castle_archive.pas  |TfrmArchive     |vsLogsDblClick  |165  |
+|004B0856|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WMLButtonDblClk |15399|
+|77E24F45|user32.dll      |                    |                |CallWindowProcW |     |
+|77E254EC|user32.dll      |                    |                |MapWindowPoints |     |
+|77E16BB7|user32.dll      |                    |                |PtInRect        |     |
+|004A870A|castleclient.exe|VirtualTrees.pas    |TVTHeader       |InHeader        |10576|
+|004A80FE|castleclient.exe|VirtualTrees.pas    |TVTHeader       |HandleMessage   |10359|
+|77E15BC2|user32.dll      |                    |                |IsWindow        |     |
+|77E1A339|user32.dll      |                    |                |CallNextHookEx  |     |
+|004BC776|castleclient.exe|VirtualTrees.pas    |TBaseVirtualTree|WndProc         |21885|
+|77E156CF|user32.dll      |                    |                |PeekMessageA    |     |
+|77E15B4C|user32.dll      |                    |                |DispatchMessageA|     |
+|77E15B46|user32.dll      |                    |                |DispatchMessageA|     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+|0050B988|castleclient.exe|castleclient.dpr    |                |                |34   |
+|77DD9958|advapi32.dll    |                    |                |RegOpenKeyExA   |     |
+----------------------------------------------------------------------------------------
+
+
+
+Application...
+  Start Date      : 03/30/2004 03:20:27
+  Name/Description: Клиент Замка "ИФ"
+  Version Number  : 1.2.0.28
+
+Exception...
+  Date   : 03/30/2004 03:20:38
+  Address: 0047E7E6
+  Module : castleclient.exe
+  Type   : EInvalidOperation
+  Message: Cannot focus a disabled or invisible window.
+
+Active Controls...
+  Form Class   : TEditWindow
+  Form Text    : main.pas
+  Control Class: Internet Explorer_Server
+  Control Text : 
+
+Computer...
+  Name        : ION
+  Total Memory: 511 Mb
+  Free Memory : 272 Mb
+  Total Disk  : 36,33 Gb
+  Free Disk   : 17,32 Gb
+
+Operating System...
+  Type    : Microsoft Windows 2000
+  Build # : 2195
+  Language: Русский
+
+--------------------------------------------------------------------------------------------
+|Address |Module          |Unit                |Class         |Procedure/Method       |Line|
+--------------------------------------------------------------------------------------------
+|0051CEFF|castleclient.exe|main.pas            |TfrmCastle    |FocuseEditor           |949 |
+|0051CED8|castleclient.exe|main.pas            |TfrmCastle    |FocuseEditor           |948 |
+|0051B443|castleclient.exe|main.pas            |TfrmCastle    |AddEditText            |557 |
+|0051B3EC|castleclient.exe|main.pas            |TfrmCastle    |AddEditText            |555 |
+|0051A394|castleclient.exe|main.pas            |TfrmCastle    |WndProc                |384 |
+|00492DA8|castleclient.exe|EmbeddedWB.pas      |TEmbeddedWB   |FormWndProc            |1033|
+|00492DA8|castleclient.exe|EmbeddedWB.pas      |TEmbeddedWB   |FormWndProc            |1033|
+|77E16482|user32.dll      |                    |              |CallWindowProcW        |    |
+|77E1535D|user32.dll      |                    |              |CallWindowProcA        |    |
+|77E15349|user32.dll      |                    |              |CallWindowProcA        |    |
+|004E1451|castleclient.exe|CoolTrayIcon.pas    |TCoolTrayIcon |HookFormProc           |974 |
+|77E1539C|user32.dll      |                    |              |SendMessageA           |    |
+|77E15366|user32.dll      |                    |              |SendMessageA           |    |
+|00525F2C|castleclient.exe|castle_interface.pas|TTCastleClient|Set_SetSmile           |2010|
+|779D7D5B|oleaut32.dll    |                    |              |DispCallFunc           |    |
+|779D7C00|oleaut32.dll    |                    |              |DispCallFunc           |    |
+|77F89134|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77E167D4|user32.dll      |                    |              |CallNextHookEx         |    |
+|77E1679C|user32.dll      |                    |              |CallNextHookEx         |    |
+|004E3A8C|castleclient.exe|TB2Hook.pas         |              |CallWndProcHook        |74  |
+|77E15214|user32.dll      |                    |              |ReleaseCapture         |    |
+|77E32637|user32.dll      |                    |              |LoadCursorW            |    |
+|77E165E8|user32.dll      |                    |              |LoadCursorA            |    |
+|77F91961|ntdll.dll       |                    |              |RtlCompareMemoryUlong  |    |
+|77F91961|ntdll.dll       |                    |              |RtlCompareMemoryUlong  |    |
+|77F89134|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77F89134|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|793BC207|kernel32.dll    |                    |              |LocalFree              |    |
+|77F98538|ntdll.dll       |                    |              |RtlFillMemoryUlong     |    |
+|77F98538|ntdll.dll       |                    |              |RtlFillMemoryUlong     |    |
+|77F89134|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|77F98538|ntdll.dll       |                    |              |RtlFillMemoryUlong     |    |
+|77F89134|ntdll.dll       |                    |              |RtlLeaveCriticalSection|    |
+|78001DFA|MSVCRT.DLL      |                    |              |free                   |    |
+|77E1539C|user32.dll      |                    |              |SendMessageA           |    |
+|77E167D4|user32.dll      |                    |              |CallNextHookEx         |    |
+|77E15778|user32.dll      |                    |              |DispatchMessageA       |    |
+|77E15772|user32.dll      |                    |              |DispatchMessageA       |    |
+|0052B364|castleclient.exe|castleclient.dpr    |              |                       |34  |
+--------------------------------------------------------------------------------------------
+
+
+

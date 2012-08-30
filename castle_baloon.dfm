@@ -1,0 +1,44 @@
+object frmBaloon: TfrmBaloon
+  Left = 380
+  Top = 268
+  Width = 211
+  Height = 126
+  BorderStyle = bsSizeToolWin
+  Caption = 'frmBaloon'
+  Color = 1910335
+  DefaultMonitor = dmMainForm
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lText: TMemo
+    Left = 5
+    Top = 4
+    Width = 193
+    Height = 89
+    BorderStyle = bsNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindow
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentColor = True
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Timer: TTimer
+    Enabled = False
+    Interval = 5000
+    OnTimer = TimerTimer
+    Left = 8
+    Top = 48
+  end
+end

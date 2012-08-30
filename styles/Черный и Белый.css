@@ -1,0 +1,11 @@
+body {color: Black; background: White !important}
+a {text-decoration: none; font-weight: bolder !important}
+.AdminName {font: normal 100% Courier New; !important}
+.AdminText {font: 100% Courier New; !important}
+.StrajName {font: 100% Courier New; text-align: center !important}
+.StrajText {font: 100% Courier New; text-align: center !important}
+.PrivateName {font: 100% Courier New; !important}
+.PrivateText {font: 100% Courier New; !important}
+.ChatText {font: 100% Courier New; !important}
+.ChatName {font: 100% Courier New; !important}
+.OurNick {font: bolder 100% Courier New; color: Black !important}

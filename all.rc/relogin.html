@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function  GetVar()
+        {
+         document.all.nick.value=window.external.GetLogin;
+         document.all.proxy.value=window.external.GetProxy;
+         document.all.port.value=window.external.GetPort;
+         document.all.pass.focus();
+        }
+		 
+	function SetVar(l,n,p,pp)
+        {
+         window.external.DoLogin = l+','+n+','+p+','+pp;
+        }
+//-->
+</SCRIPT>
+<META http-equiv=Content-Type content="text/html; charset=windows-1251">
+<style>
+ img {border: 0; cursor:pointer}
+</style>
+</HEAD>
+<BODY text=#b8826d vLink=#8a543f aLink=#ffffff link=#ffff00 bgColor=#000000 onLoad="GetVar()">
+<CENTER><IMG src="castle"><BR><BR><IMG src="twoline"><BR>
+<TABLE cellSpacing=0 cellPadding=9 width=292 bgColor=#3f261d border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <CENTER><FONT size=2 color=red><B><I>Вы несмогли войти в чат, неверное имя пользователя или пароль</I></B></FONT> </CENTER><br>
+      <CENTER><FONT size=2><B><I>ВХОД</I></B> </CENTER>
+      <P align=justify>Привет ! Добро пожаловать в "Замок". Если у вы не зарегистрированны то
+      <A target="_blank" href="http://castle.istu.edu/reg.html">зарегистрируйтесь</A>. </P>
+      <TABLE>
+        <TBODY>
+        <form action="loading" method="post">
+        <TR>
+          <TD><FONT size=2><b>Пользователь:</b></FONT></TD>
+          <TD></TD>
+        </TR>
+        <TR>
+          <TD><FONT size=2>Ник:</FONT></TD>
+          <TD><INPUT maxLength=20 name=nick></TD></TR>
+        <TR>
+          <TD><FONT size=2>Пароль:</FONT></TD>
+          <TD><INPUT type=password name=pass></TD></TR>
+        <TR>
+          <TD><FONT size=2><b>Прокси сервер:</b></FONT></TD>
+          <TD></TD>
+        </TR>
+        <TR>
+          <TD><FONT size=2>Адрес:</FONT></TD>
+          <TD><INPUT maxLength=20 name="proxy"></TD>
+        </TR>
+        <TR>
+          <TD><FONT size=2>Порт:</FONT></TD>
+          <TD><INPUT maxLength=20 name="port"></TD>
+        </TR>        
+          </TBODY></TABLE>
+      <CENTER><BR><BR>
+      <INPUT type=image src="k_enter" onClick="SetVar(document.all.nick.value, document.all.pass.value, document.all.proxy.value, document.all.port.value)" value=Sent border=0>
+      </CENTER></FONT></TD></TR></form></TBODY></TABLE><IMG 
+src="twoline"><BR><BR><a href="about"><FONT size=2>О Клиенте Замка "ИФ"</FONT></a></CENTER></BODY></HTML>

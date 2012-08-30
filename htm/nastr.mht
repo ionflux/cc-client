@@ -1,0 +1,178 @@
+From: <Сохранено Microsoft Internet Explorer 5>
+Subject: 
+Date: Wed, 28 May 2003 18:17:01 +0900
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0055_01C32545.55C411F0";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0055_01C32545.55C411F0
+Content-Type: text/html;
+	charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://castle.istu.edu/cgi-bin/castle_if/registration/nastr.pl?id=19.pWmauKVbq2&numer=14648
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1251">
+<META content=3D"MSHTML 6.00.2600.0" name=3DGENERATOR></HEAD>
+<BODY text=3D#b8826d vLink=3D#8a543f aLink=3D#ffffff link=3D#ffff00 =
+bgColor=3D#000000=20
+background=3Dhttp://castle.istu.edu/images/bg_right.gif>
+<CENTER><FONT size=3D2><B><I>=C8=C7=CC=C5=CD=C5=CD=C8=C5 =
+=CD=C0=D1=D2=D0=CE=C5=CA</I></B>=20
+<P align=3Djustify>=C8=E7=EC=E5=ED=E8=F2=E5 =F1=E2=EE=E8 =
+=ED=E0=F1=F2=F0=EE=E9=EA=E8. =CF=EE=EB=FF =
+=EE=F1=F2=E0=E2=EB=E5=ED=ED=FB=E5 =EF=F3=F1=F2=FB=EC=E8 =ED=E5 =
+=E1=F3=E4=F3=F2=20
+=E8=E7=EC=E5=ED=E5=ED=FB. </P>
+<FORM action=3D/cgi-bin/castle_if/registration/ch_sett.pl =
+method=3Dpost><BR>
+<P>
+<TABLE cellPadding=3D7>
+  <TBODY>
+  <TR>
+    <TD><FONT size=3D2>(*)=D1=F2=E0=F0=FB=E9 =
+=EF=E0=F0=EE=EB=FC:<BR><INPUT type=3Dpassword=20
+      name=3Doldpass></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>(*)=CF=E0=F0=EE=EB=FC:<BR><INPUT type=3Dpassword=20
+name=3Dpass></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>(*)=CF=EE=E2=F2=EE=F0 =
+=EF=E0=F0=EE=EB=FF:<BR><INPUT type=3Dpassword=20
+      name=3Drepass></FONT></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop><FONT size=3D2>(*)=D6=E2=E5=F2 =
+=ED=E8=EA=E0:<BR>#<INPUT maxLength=3D6 size=3D6=20
+      name=3Dother_color_nick> =E8=EB=E8<BR><SELECT name=3Dcolor_nick> =
+<OPTION=20
+        value=3DAqua selected>=C1=E8=F0=FE=E7=EE=E2=FB=E9<OPTION =
+value=3DBlue>=D1=E8=ED=E8=E9<OPTION=20
+        value=3DBrown>=CA=EE=F0=E8=F7=ED=E5=E2=FB=E9<OPTION =
+value=3DCian>=CF=E5=F1=EE=F7=ED=FB=E9<OPTION=20
+        value=3DDarkgreen>=D2=E5=EC=ED=EE-=E7=E5=EB=E5=ED=FB=E9<OPTION =
+value=3DGray>=D1=E5=F0=FB=E9<OPTION=20
+        value=3DGreen>=C7=E5=EB=E5=ED=FB=E9<OPTION =
+value=3DLightblue>=D1=E2=E5=F2=EB=EE-=F1=E8=ED=E8=E9<OPTION=20
+        =
+value=3DLightgreen>=D1=E2=E5=F2=EB=EE-=E7=E5=EB=E5=ED=FB=E9<OPTION =
+value=3DMagenta>=D1=E8=F0=E5=ED=E5=E2=FB=E9<OPTION=20
+        value=3DMaroon>=D1=EF=E5=EB=E0=FF-=E2=E8=F8=ED=FF<OPTION =
+value=3DNavy>=CC=EE=F0=F1=EA=EE=E9<OPTION=20
+        value=3DOrange>=CE=F0=E0=ED=E6=E5=E2=FB=E9<OPTION =
+value=3DPink>=D0=EE=E7=EE=E2=FB=E9<OPTION=20
+        value=3DRed>=CA=F0=E0=F1=ED=FB=E9<OPTION =
+value=3DSienna>=C4=F0=E5=E2=E5=F1=ED=FB=E9<OPTION=20
+        value=3DTeal>=C0=EA=E2=E0=EC=E0=F0=E8=ED<OPTION =
+value=3DViolet>=D4=E8=EE=EB=E5=F2=EE=E2=FB=E9<OPTION=20
+        value=3DWhite>=C1=E5=EB=FB=E9<OPTION =
+value=3DYellow>=C6=E5=EB=F2=FB=E9<OPTION=20
+        =
+value=3Dcfcfcf>=D1=E2=E5=F2=EB=EE-=F1=E5=F0=FB=E9</OPTION></SELECT> =
+</FONT></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop><FONT size=3D2>(*)=D6=E2=E5=F2 =
+=F1=EE=EE=E1=F9=E5=ED=E8=E9:<BR>#<INPUT maxLength=3D6=20
+      size=3D6 name=3Dother_color_mess> =E8=EB=E8 <BR><SELECT =
+name=3Dcolor_mess> <OPTION=20
+        value=3DAqua>=C1=E8=F0=FE=E7=EE=E2=FB=E9<OPTION =
+value=3DBlue>=D1=E8=ED=E8=E9<OPTION=20
+        value=3DBrown>=CA=EE=F0=E8=F7=ED=E5=E2=FB=E9<OPTION =
+value=3DCian>=CF=E5=F1=EE=F7=ED=FB=E9<OPTION=20
+        value=3DDarkgreen>=D2=E5=EC=ED=EE-=E7=E5=EB=E5=ED=FB=E9<OPTION =
+value=3DGray>=D1=E5=F0=FB=E9<OPTION=20
+        value=3DGreen>=C7=E5=EB=E5=ED=FB=E9<OPTION =
+value=3DLightblue>=D1=E2=E5=F2=EB=EE-=F1=E8=ED=E8=E9<OPTION=20
+        =
+value=3DLightgreen>=D1=E2=E5=F2=EB=EE-=E7=E5=EB=E5=ED=FB=E9<OPTION =
+value=3DMagenta>=D1=E8=F0=E5=ED=E5=E2=FB=E9<OPTION=20
+        value=3DMaroon>=D1=EF=E5=EB=E0=FF-=E2=E8=F8=ED=FF<OPTION =
+value=3DNavy>=CC=EE=F0=F1=EA=EE=E9<OPTION=20
+        value=3DOrange>=CE=F0=E0=ED=E6=E5=E2=FB=E9<OPTION =
+value=3DPink>=D0=EE=E7=EE=E2=FB=E9<OPTION=20
+        value=3DRed>=CA=F0=E0=F1=ED=FB=E9<OPTION =
+value=3DSienna>=C4=F0=E5=E2=E5=F1=ED=FB=E9<OPTION value=3DTeal=20
+        selected>=C0=EA=E2=E0=EC=E0=F0=E8=ED<OPTION =
+value=3DViolet>=D4=E8=EE=EB=E5=F2=EE=E2=FB=E9<OPTION=20
+        value=3DWhite>=C1=E5=EB=FB=E9<OPTION =
+value=3DYellow>=C6=E5=EB=F2=FB=E9<OPTION=20
+        =
+value=3Dcfcfcf>=D1=E2=E5=F2=EB=EE-=F1=E5=F0=FB=E9</OPTION></SELECT> =
+</FONT></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop><FONT size=3D2>(*)=C2=F0=E5=EC=FF =
+=EE=E1=ED=EE=E2=EB=E5=ED=E8=FF:<BR><SELECT name=3Dtime_ref>=20
+        <OPTION>10<OPTION>12<OPTION=20
+        =
+selected>14<OPTION>16<OPTION>18<OPTION>20<OPTION>25<OPTION>30<OPTION>40</=
+OPTION></SELECT>=20
+      </FONT></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop><FONT size=3D2>(*)=D7=E8=F1=EB=EE =
+=F1=F2=F0=EE=EA:<BR><SELECT name=3Dcount_line>=20
+        <OPTION>10<OPTION>15<OPTION>20<OPTION=20
+        selected>25<OPTION>30<OPTION>35</OPTION></SELECT> =
+</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>(*)=CF=EE=EA=E0=E7 =F1=EC=E0=E9=EB=EE=E2:<INPUT =
+type=3Dcheckbox CHECKED=20
+      name=3Dsmiles></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>(*)=C2=EA=EB. Java-script: <INPUT type=3Dcheckbox =
+CHECKED=20
+      name=3Djava></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>(*)=CF=EE=EA=E0=E7 =E0=E2=E0=F2=E0=F0 =
+(=EA=E0=F0=F2=E8=ED=EA=E0 =E2=EC=E5=F1=F2=EE =ED=E8=EA=E0): <INPUT=20
+      type=3Dcheckbox name=3Davatars></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>E-mail:<BR><INPUT name=3De_mail></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>ICQ UIN:<BR><INPUT name=3Dicq></FONT></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>=CD=E5=EC=ED=EE=E3=EE =EE =
+=F1=E5=E1=E5:<BR><TEXTAREA name=3Dabout rows=3D5 =
+cols=3D15></TEXTAREA></FONT></TD></TR></TBODY></TABLE>
+<CENTER><INPUT type=3Dhidden value=3D19.pWmauKVbq2 border=3D0 name=3Did> =
+<INPUT=20
+type=3Dhidden value=3D14648 border=3D0 name=3Dnumer> <INPUT type=3Dimage =
+
+src=3D"http://castle.istu.edu/images/w_enter.gif" border=3D0>=20
+</CENTER></FORM></FONT></CENTER></BODY></HTML>
+
+------=_NextPart_000_0055_01C32545.55C411F0
+Content-Type: image/gif; name="w_enter.gif"
+Content-Transfer-Encoding: base64
+Content-Location: http://castle.istu.edu/images/w_enter.gif
+
+R0lGODlhHQAdAOYAAAAAAAEBAAMCAQQCAgQDAggFBAkFBAoGBQoHBQwHBg4IBw8KBwoKCRAKBxEL
+CBILCBILCRMMCRYOCxcOCxgRDhwRDR8TDyAUDyUXEScYEi0cFS8dFiIfHTAdFzEeFzUhGTciGjgj
+GzkjGy0qKEYrIU0vJEExKk4zKVU0KFY1KVw4K105LGI9L2c/MWxCMm5DNG9ENHBFNXFGNnlLOXpL
+OnxMO35NPH9OPFRLSFtVU2hRSHtsZ3VsaHRsaYFPPYJQPoRRP4VSP4ZSP4dTQIdUQYhVQolWQ4pX
+RIpYRYtZR4xaR4RbTI1bSY1cSo5dS5BgT5NlU5RmVZZpWJhrW4ltYp1zY6B3aKN7baR8bqaAcaiC
+dKqFd6SGe5uHgLGPg7aWirGYj7eYjLiZjrqckbSmobioosGnncevp8GuqMmxqcy1rc64sNC8tNXC
+vNrLxdzNyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH+
+GFVsZWFkIFNtYXJ0U2F2ZXIgVmVyIDMuMAAsAAAAAB0AHQAAB/+AAIKDhIWGh4iJiouCHDg7XWBi
+XFQ6JhSMhCM8ZWtnZmNeW1pZVksnFZk5ZG1pX1hTT0lITlBSUU0uG4oMPW5sYVVORUPFxUJER0xC
+MR4EiD1valpPRsbXx0RFNCsZhzlualdKQtjmQkJALyQThSNkbFpK5vTHNykYBoQ8bWFP5cbQCBw4
+8FiQGCAUDOJQJk0Va9jQmJN4zEcJCAIE4VjzxUk9igGvCWEhoYCgHWewEJvI0pgQGRYSCOpiZgo9
+kNdwDqmhYYEgMGOetBxa7MeHB4LEeEkS8eYQnT46RBDEZQuSnE+bCsQ24wJSAFS0eCwmUSdInTAi
++ASgIwsUgFmhy2atF0RFBJkATFiRQoRs3Ln1bIiIYBIAhSVRjgCUqxMbkBYRHGQUdKIJEyKLAdMT
+QiNEBASEKrgQUgRuvWs+UERoMKDQhhg0gKA7XXFFBMKHPKx4cSOIacc0VEc4gIhABhIpYviYfS2I
+jRaehwdQNAEDiBIsZNT44WMGDBWDVxdeZEABBAkWNHzocOF2ZAStMwkSUCDBggcRHixIUGCyoUAA
+Ow==
+
+------=_NextPart_000_0055_01C32545.55C411F0
+Content-Type: image/gif; 
+Content-Transfer-Encoding: base64
+Content-Location: http://castle.istu.edu/images/bg_right.gif
+
+R0lGODlhLAEBAIAAAAAAAEsuJCH+GFVsZWFkIFNtYXJ0U2F2ZXIgVmVyIDMuMAAsAAAAACwBAQAA
+Ag8MjqnL7Q+jnLTai7PenBcAOw==
+
+------=_NextPart_000_0055_01C32545.55C411F0--
